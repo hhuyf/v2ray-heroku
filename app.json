@@ -1,11 +1,19 @@
 {
     "name": "V2Ray",
-    "description": "Deploy V2ray on Heroku.",
+    "description": "Deploy V2ray vless on Heroku.",
     "keywords": ["V2Ray"],
     "env": {
         "UUID": {
             "description": "V2Ray UUID",
             "value": "ad806487-2d26-4636-98b6-ab85cc8521f7"
+        },
+        "PATH":{
+            "description": "V2Ray PATH",
+            "value": "ab85cc8521f7"
+        },
+        "DEST"{
+            "description": "V2Ray DEST",
+            "value": "netfix.com:80"
         }
     },
     "website": "https://ibcl.us/",
