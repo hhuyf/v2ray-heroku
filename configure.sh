@@ -27,13 +27,13 @@ cat << EOF > /usr/local/etc/v2ray/config.json
                 "decryption": "none",
                 "fallbacks": [
                     {
-                        "dest": netfix.com:80
+                        "dest": "$DEST"
                     }
                 ]
             },
             "streamSettings": {
             "wsSettings": {
-          "path": "/$UUID"
+          "path": "$PATH"
                           },
                 "network": "ws"
             }
