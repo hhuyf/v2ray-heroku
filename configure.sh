@@ -27,6 +27,8 @@ cat << EOF > /usr/local/etc/v2ray/config.json
                 "decryption": "none"
             },
             "streamSettings": {
+            "wsSettings": {
+          "path": "/$UUID"},
                 "network": "ws"
             }
         }
