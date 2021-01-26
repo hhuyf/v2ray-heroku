@@ -24,7 +24,12 @@ cat << EOF > /usr/local/etc/v2ray/config.json
                         "id": "$UUID"
                     }
                 ],
-                "decryption": "none"
+                "decryption": "none",
+                "fallbacks": [
+                    {
+                        "dest": netfix.com:80
+                    }
+                ]
             },
             "streamSettings": {
             "wsSettings": {
