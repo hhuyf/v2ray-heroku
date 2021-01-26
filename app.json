@@ -11,7 +11,7 @@
             "description": "V2Ray PATH",
             "value": "ab85cc8521f7"
         },
-        "DEST"{
+        "DEST":{
             "description": "V2Ray DEST",
             "value": "netfix.com:80"
         }
