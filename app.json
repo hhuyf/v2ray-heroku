@@ -9,7 +9,7 @@
         },
         "PATH":{
             "description": "V2Ray PATH",
-            "value": "ab85cc8521f7"
+            "value": "/ab85cc8521f7"
         },
         "DEST":{
             "description": "V2Ray DEST",
